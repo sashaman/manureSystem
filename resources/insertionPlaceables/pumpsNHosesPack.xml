@@ -227,6 +227,7 @@
         <manureSystemConnectors>
             <connector>
                 <entry type="string" key="#type" value="COUPLING"/>
+				<entry type="string" key="#fillTypes" value="LIQUIDMANURE"/>
                 <entry type="string" key="#componentNode" value="0>2|0"/>
 
                 <entry type="int" key=".sharedSet#id" value="2"/>
@@ -239,8 +240,47 @@
                 <entry type="string" key=".sharedSet.valve#type" value="8INCH_BRASS"/>
                 <entry type="string" key=".sharedSet.handle#type" value="HANDLE_NEW"/>
             </connector>
+            <connector>
+                <entry type="string" key="#type" value="COUPLING"/>
+				<entry type="string" key="#fillTypes" value="DIGESTATE"/>
+                <entry type="string" key="#componentNode" value="0>2|0"/>
+
+                <entry type="int" key=".sharedSet#id" value="2"/>
+                <entry type="bool" key=".sharedSet#createNode" value="true"/>
+                <entry type="string" key=".sharedSet#placeholderNode" value="0>10|1"/>
+                <entry type="string" key=".sharedSet#linkNode" value="0>10"/>
+                <entry type="string" key=".sharedSet#position" value="-4.4749999 0.49079639 5.19866467"/>
+                <entry type="string" key=".sharedSet#rotation" value="0 230 0"/>
+                <entry type="string" key=".sharedSet.connector#type" value="CONNECTOR_1"/>
+                <entry type="string" key=".sharedSet.valve#type" value="8INCH_BRASS"/>
+                <entry type="string" key=".sharedSet.handle#type" value="HANDLE_NEW"/>
+            </connector>
         </manureSystemConnectors>
     </placeable>
+
+    <!-- <placeable xml="data/placeables/stallkamp/fermenters/fermenter20m.xml"> -->
+        <!-- <manureSystem> -->
+            <!-- <entry type="bool" key="#hasConnectors" value="true"/> -->
+        <!-- </manureSystem> -->
+
+        <!-- <manureSystemConnectors> -->
+            <!-- <connector> -->
+                <!-- <entry type="string" key="#type" value="COUPLING"/> -->
+                <!-- <entry type="string" key="#fillTypes" value="DIGESTATE"/> -->
+                <!-- <entry type="string" key="#componentNode" value="0>2|0"/> -->
+
+                <!-- <entry type="int" key=".sharedSet#id" value="2"/> -->
+                <!-- <entry type="bool" key=".sharedSet#createNode" value="true"/> -->
+                <!-- <entry type="string" key=".sharedSet#placeholderNode" value="0>0|4|0"/> -->
+                <!-- <entry type="string" key=".sharedSet#linkNode" value="0>0|4"/> -->
+                <!-- <entry type="string" key=".sharedSet#position" value="-3.49499989 1.19373441 10.21744061"/> -->
+                <!-- <entry type="string" key=".sharedSet#rotation" value="0 250 0"/> -->
+                <!-- <entry type="string" key=".sharedSet.connector#type" value="CONNECTOR_1"/> -->
+                <!-- <entry type="string" key=".sharedSet.valve#type" value="8INCH_BRASS"/> -->
+                <!-- <entry type="string" key=".sharedSet.handle#type" value="HANDLE_NEW"/> -->
+            <!-- </connector> -->
+        <!-- </manureSystemConnectors> -->
+    <!-- </placeable> -->
 
     <placeable xml="data/placeables/stallkamp/tankFlatSteel/tankOpen19m.xml">
         <manureSystem>
